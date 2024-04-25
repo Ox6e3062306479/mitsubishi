@@ -1,7 +1,15 @@
 #!/usr/bin/env python3 
 # -*- coding: utf-8 -*- 
-#Appicable vulnerabilities:
-#CVE-2023-2060, CVE-2023-2061, CVE-2023-2062, CVE-2023-2063
+
+# Exploit Title: Mitsubishi Electric Ethernet/IP Authentication Bypass
+# Google Dork: n/a
+# Date: 06-05-2024
+# Exploit Author: Iie Karada
+# Vendor Homepage: https://mitsubishielectric.com
+# Software Link: n/a (log in required)
+# Version: firmware ver. 5; software ver. 1.01B and prior
+# Tested on: RJ71EIP91 f/w: 5; SW1DNN-EIP-CT-BD ver. 1.01B
+# CVEs : CVE-2023-2060, CVE-2023-2061, CVE-2023-2062, CVE-2023-2063
 
 from ftplib import FTP
 import os
